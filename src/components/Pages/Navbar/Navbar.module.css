@@ -5,6 +5,7 @@
 }
 .navbarMain{
     background-color: #161617;
+    padding: 0 0 0  225px;
 }
 
 .navbarList{
@@ -13,7 +14,7 @@
     align-items: center;
     height: 48px;
     /* justify-content: center; */
-    margin: 0 17rem;
+    /* margin: 0 17rem; */
     gap: 1.2rem;
     width: 100%;
     font-size: 12px;

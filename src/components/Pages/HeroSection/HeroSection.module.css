@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.MainSection{
+    background: url('../../Assests/MainSetionBackground.svg');
+    background-position: center center;
+    height: 80vh;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
