@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.navbarMain{
+    background-color: #161617;
+}
+
+.navbarList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 48px;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 100%;
+    font-size: 12px;
+}
+
+.navbarList li{
+    cursor: pointer;
+    color: #fff;
+    margin: 0 10px;
+}
+
+li img{
+    /* display: none; */
+    height: 15px;
+}
