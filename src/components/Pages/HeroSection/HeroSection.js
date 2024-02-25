@@ -7,9 +7,9 @@ const HeroSection = () => {
     <div className={classes.MainSection}>
         <h1>iPhone 15 Pro</h1>
         <h5>Titanium. So strong. So light. So pro.</h5>
-        <div>
-        <h6>Learn more</h6>
-        <h6>Buy</h6>
+        <div className={classes.ctaLinks}>
+         <button>Learn more</button> 
+         <button>Buy</button> 
         </div>
     </div>
   )
