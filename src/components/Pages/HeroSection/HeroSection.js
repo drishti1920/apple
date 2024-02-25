@@ -14,6 +14,11 @@ const HeroSection = () => {
 
 
   return (
+<div className={classes.HeroSectionWrapper}>
+
+
+
+
     <div className={classes.MainSection}>
         <h1>iPhone 15 Pro</h1>
         <h5>Titanium. So strong. So light. So pro.</h5>
@@ -21,6 +26,20 @@ const HeroSection = () => {
          <button onClick={learnMore}>Learn more</button> 
          <button onClick={buyNow}>Buy</button> 
         </div>
+    </div>
+
+<div className={classes.Section2}>
+<h1>iPhone 15</h1>
+        <h5>New Camera. New design. Newphoria.</h5>
+        <div className={classes.ctaLinks}>
+         <button onClick={learnMore}>Learn more</button> 
+         <button onClick={buyNow}>Buy</button> 
+        </div>
+</div>
+
+
+
+
     </div>
   )
 }

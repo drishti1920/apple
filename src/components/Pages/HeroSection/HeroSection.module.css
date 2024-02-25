@@ -5,10 +5,16 @@
     padding: 0;
 }
 
+.HeroSectionWrapper{
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+}
+
 .MainSection{
     background: url('../../Assests/MainSetionBackground.svg');
     background-position: center center;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     color: #fff;
     display: flex;
@@ -16,6 +22,32 @@
     align-items: center;
     padding: 50px 0px 0px 0px;
 }
+
+.Section2{
+    background: url('../../Assests/Section2BG.svg');
+    background-position: center center;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1D1D1F;
+    padding: 55px 0px 0px 0px;
+}
+
+.Section2 h1{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.Section2 h5{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+}
+
+
 
 .MainSection h1{
     font-size: 56px;
@@ -33,7 +65,7 @@
     display: flex;
     gap: 50px;
     align-items: center;
-    margin-top: 0.65em;
+    margin-top: 1.65em;
 }
 
 .ctaLinks button{
