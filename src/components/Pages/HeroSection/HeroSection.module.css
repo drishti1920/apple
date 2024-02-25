@@ -1,17 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.HeroSectionWrapper{
+.HeroSectionWrapper {
     display: flex;
     gap: 0.8rem;
     flex-direction: column;
 }
 
-.MainSection{
+.MainSection {
     background: url('../../Assests/MainSetionBackground.svg');
     background-position: center center;
     height: 90vh;
@@ -23,7 +23,7 @@
     padding: 50px 0px 0px 0px;
 }
 
-.Section2{
+.Section2 {
     background: url('../../Assests/Section2BG.svg');
     background-position: center center;
     height: 90vh;
@@ -35,7 +35,7 @@
     padding: 55px 0px 0px 0px;
 }
 
-.Section3{
+.Section3 {
     background: url('../../Assests/Section3BG.svg');
     background-position: center center;
     height: 80vh;
@@ -46,11 +46,11 @@
     flex-direction: column;
     align-items: center;
     color: #1D1D1F;
-    padding: 55px 0px 0px 0px; 
+    padding: 55px 0px 0px 0px;
     position: relative;
 }
 
-.Section3Content{
+.Section3Content {
     position: absolute;
     bottom: 3rem;
     display: flex;
@@ -63,19 +63,19 @@
     align-items: center;
 }
 
-.Section3 span img{
+.Section3 span img {
     height: 43px;
 }
 
 
 
-.Section3 h1{
+.Section3 h1 {
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
 }
 
-.Section3 h5{
+.Section3 h5 {
     font-size: 28px;
     line-height: 1.10722;
     padding-top: 1.1rem;
@@ -84,13 +84,13 @@
 
 
 
-.Section2 h1{
+.Section2 h1 {
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
 }
 
-.Section2 h5{
+.Section2 h5 {
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
@@ -98,26 +98,26 @@
 
 
 
-.MainSection h1{
+.MainSection h1 {
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
 }
 
-.MainSection h5{
+.MainSection h5 {
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
 }
 
-.ctaLinks{
+.ctaLinks {
     display: flex;
     gap: 50px;
     align-items: center;
     margin-top: 1.65em;
 }
 
-.ctaLinks button{
+.ctaLinks button {
     color: #2997ff;
     background-color: transparent;
     border: none;
@@ -127,7 +127,7 @@
     cursor: pointer;
 }
 
-.ctaLinks button::after{
+.ctaLinks button::after {
     content: "\F285";
     font-family: bootstrap-icons;
     position: absolute;
@@ -135,6 +135,3 @@
     top: 5px;
     font-size: 15px;
 }
-
-
-

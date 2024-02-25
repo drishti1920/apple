@@ -4,9 +4,7 @@
    
 }
 .navbarMain{
-    background-color: #454545;
-    /* padding: 0 0 0  225px; */
-    
+    background-color: #454545;    
 }
 
 .navbarList{
@@ -15,7 +13,6 @@
     align-items: center;
     height: 48px;
     justify-content: center;
-    /* margin: 0 17rem; */
     gap: 1.2rem;
     width: 100%;
     font-size: 12px;
@@ -28,6 +25,5 @@
 }
 
 li img{
-    /* display: none; */
     height: 15px;
 }
