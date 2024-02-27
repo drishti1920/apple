@@ -1,0 +1,120 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ProductViewContainer {
+    margin: 0rem 0.8rem;
+}
+
+h3{
+    font-weight: 400;
+}
+
+.ProductViewWrapper {
+    display: grid;
+    grid-template-columns: 50% 49%;
+    height: 580px;
+    gap: 0.8rem;
+    padding-top: 0.8rem;
+
+}
+
+.ProductViewWrapper>* {
+    padding: 1rem;
+}
+
+.ProdutA {
+    background: url("../../Assests/Watch.svg");
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.1rem;
+    gap: 1rem;
+}
+
+.ProdutA h5 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .016em;
+    line-height: 1.2381;
+}
+
+.ProdutB {
+    background: url("../../Assests/Airpods.svg");
+}
+
+.ProdutC {
+    background: url("../../Assests/Ipad.svg");
+
+}
+
+.ProdutD {
+    background: url("../../Assests/MacBook.svg");
+    color: #fff;
+
+}
+
+.ProdutE {
+    background: url("../../Assests/Card.svg");
+}
+
+.ProdutF {
+    background: url("../../Assests/Tradein.svg");
+
+}
+
+.ProdutB,
+.ProdutC,
+.ProdutD,
+.ProdutE,
+.ProdutF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 0.8rem;
+}
+
+.ProdutE img,
+.ProdutF img {
+    height: 30px;
+}
+
+
+.ProdutE h3,
+.ProdutF h3{
+    max-width: 18rem;
+    white-space: wrap;
+    text-align: center;
+}
+
+.ctaLinks {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.ctaLinks button {
+    color: #2997ff;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ctaLinks button::after {
+    content: "\F285";
+    font-family: bootstrap-icons;
+    position: absolute;
+    right: -20px;
+    top: 5px;
+    font-size: 15px;
+}
