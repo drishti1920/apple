@@ -8,11 +8,11 @@ export const CarouselItem = ({item})=>{
     }
 
     return <div className={classes.carouselItem}>
-        {/* <div></div> */}
+        
         <img className={classes.carouselImage} src={item.icon} />
         <div className={classes.carouselData}>
-        <div className={classes.carouselText}>{item.description}</div>
         <button onClick={()=>handleClick(item.url)}>Stream Now</button>
+        <div className={classes.carouselText}>{item.description}</div>
         </div>
     </div>
 

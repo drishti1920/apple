@@ -24,17 +24,17 @@ const ProductCarousel = () => {
 ]
 
   return (
-    <div className={classes.carouselWrapper}>
+    <section className={classes.carouselWrapper}>
     <div className={classes.carousel}>
-      <div className={classes.inner}
+      {/* <div className={classes.inner}
       style={{ transform: `translate:(-${activeIndex * 100})` }}
-      >
+      > */}
       {items.map((item)=>{
         return <CarouselItem item={item} />
       })}   
-      </div>
+      {/* </div> */}
     </div>
-    </div>
+    </section>
   )
 }
 
