@@ -49,7 +49,7 @@ height: 100%
     left: 3rem;
     display: flex;
     gap: 5rem;
-    animation: rise 10s  ease forwards;
+    animation: rise 2s  ease forwards;
 }
 
 @keyframes rise{
@@ -61,6 +61,27 @@ height: 100%
         opacity: 1;
         transform: translateY(0);
       }
+}
+
+
+.streamNowBtn{
+    background-color: #fff;
+    border-radius: 36px;
+    color: #202020;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+.carouselText{
+    font-weight: 800;
+    font-size: 26px;
+    color: #fff;
 }
 
 
