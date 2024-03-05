@@ -1,5 +1,5 @@
-LIVE PREVIEW: https://silly-pika-035d5d.netlify.app/
-**ONGOING PROJECT**
+LIVE PREVIEW: https://regal-puffpuff-78da18.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
